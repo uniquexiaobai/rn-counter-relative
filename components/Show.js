@@ -7,8 +7,6 @@ import React, {
   View
 } from 'react-native';
 
-const Dimensions = require('Dimensions');
-
 var Show = React.createClass({
 
 	// 格式化 expression

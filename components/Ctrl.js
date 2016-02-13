@@ -9,8 +9,6 @@ import React, {
   PixelRatio,
 } from 'react-native';
 
-const Dimensions = require('Dimensions');
-
 var Ctrl = React.createClass({
 
 	// 解决Bug: React component methods may only be bound to the compoent instance 
