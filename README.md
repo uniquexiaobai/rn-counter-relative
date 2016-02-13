@@ -7,6 +7,8 @@ React Native for Android初涉
 * [下载地址](http://workhard.top/app-release.apk) 
 
 * 截图: 
+
+
 ![](./screenshot2.png)
 ![](./screenshot1.png)
 
