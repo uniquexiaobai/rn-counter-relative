@@ -1,7 +1,7 @@
 ## 亲戚称呼计算器
 
 初涉React Native的入门项目
-方便计算亲戚称谓，如下截图所示
+方便计算亲戚称呼，如下截图所示
 
 #### [Android版下载地址](http://workhard.top/app-release.apk) 
 
