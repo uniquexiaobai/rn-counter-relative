@@ -15,6 +15,7 @@
 5. debug
 6. 2016年春节前上架至Android及IOS相应的应用商店
 
+---
 
 #### 截图：
 ![](./screenshot/screenshot2.png)
