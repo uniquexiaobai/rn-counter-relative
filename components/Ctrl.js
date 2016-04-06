@@ -11,7 +11,7 @@ import React, {
 
 var Ctrl = React.createClass({
 
-	// 解决Bug: React component methods may only be bound to the compoent instance 
+	// 解决Bug: React component methods may only be bound to the compoent instance
 	handlePress: function(arg) {
 		this.props.handlePress(arg);
 	},
@@ -27,7 +27,7 @@ var Ctrl = React.createClass({
 
 	render: function() {
 		var bool = this.getSelected();
-					
+
 		return(
 			<View style={styles.Ctrl}>
 				<View style={styles.line}>
@@ -76,10 +76,10 @@ var Ctrl = React.createClass({
 				</View>
 
 				<View style={styles.line}>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "#F7F8F9"} onPress={bool ? null : this.handlePress.bind(this, '儿子')}>
+					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.handlePress.bind(this, '儿子')}>
 						<Text>儿</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "#F7F8F9"} onPress={bool ? null : this.handlePress.bind(this, '女儿')}>
+					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.handlePress.bind(this, '女儿')}>
 						<Text>女</Text>
 					</TouchableHighlight>
 					<TouchableHighlight style={bool ? [styles.btn, styles.btn_young] : [styles.btn, styles.disabled_btn, styles.btn_young]} underlayColor={bool ? "#3E9555" : "#4BCC6B"} onPress={bool ? this.handleIsOld.bind(this, '轻') : null}>
