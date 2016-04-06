@@ -2,170 +2,6 @@
 <items version="2" >
 
     <item
-<<<<<<< HEAD
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.19.1\jars\libs\infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d773b5e00673854250db5b7e085d47e649f2e7a7">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\infer-annotations-1.5-cb32cb20b570e3796ed089481a9714cc36c85c57.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp\1.2.0\6c5c9380e245c4ff5be2b2a49dcbb0200c39798e\stetho-okhttp-1.2.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\stetho-okhttp-1.2.0-952f3ceee085bfc9adc2b1fe2f0e85e4a3628be4.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\commons-cli-1.2-77e16674d65416dd955988407e7e381e056ca645.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.5.0\e9753b7dcae5deca92e871c5c759067070b07bc\okhttp-ws-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.5.0-d48c50b197d395b53d44f25766c112ff86228741.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-2dae1a9555130060355e754e9251abd49a4a32b6.jar" />
-    </item>
-    <item
-=======
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-54a45af93057142b631fd08b061ae8dc8c4894bf.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-07a0d159b3490501970aa2ae0c2cb2b5fda94785.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-54eb56d27218707b06f474f3cabecabd2e53a063.jar" />
-    </item>
-    <item
-<<<<<<< HEAD
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-d6c496b64b782562aa30e8da44f982476693a7e2.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-4d266f0ac46748a1395adf0e3a25d774f5c0a371.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\okio-1.6.0-b69d950f43ce568f673e4f45e9e37e6e5ac3aad6.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-b6aabc0f84bc778ed9c5e5251c8b1267120b7f6b.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\okhttp-2.5.0-49526708b588d12fe0ee09abd7d37781e147f388.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\jsr305-3.0.0-b97da0af34f741406be01bf267c33703e7f1761d.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-3c232f469c0af7db60527fc7daa6970cd5874e7f.jar" />
-    </item>
-    <item
-        jar="C:\software\adt-bundle\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\support-annotations-23.0.1-8f45952dbfb3c23db949a4ac8d12ffcfba7e7dc5.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-cde6e101e6c62a56fc90f0f9971b17d6d4341789.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-26d358dce2e8aa39c3420edd3636796dc5a7e400.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.19.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-dbf4cd93c498a9f313f25704d0a29a9d97ee7527.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-54a45af93057142b631fd08b061ae8dc8c4894bf.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.2.0\1d6cdb8ce8185b8b23213fad48a83987fb6d2d67\stetho-1.2.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\stetho-1.2.0-3e10ebc8dc9606ea3f0271d1c3ca382a6dbd7ac8.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\jackson-core-2.2.3-5c85bf79a49ece167c1545ef35a604e381530391.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-b97da0af34f741406be01bf267c33703e7f1761d.jar" />
-=======
         jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -173,19 +9,18 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-49526708b588d12fe0ee09abd7d37781e147f388.jar" />
     </item>
     <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-d6c496b64b782562aa30e8da44f982476693a7e2.jar" />
-    </item>
-    <item
         jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-2dae1a9555130060355e754e9251abd49a4a32b6.jar" />
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
+    </item>
+    <item
+        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-b97da0af34f741406be01bf267c33703e7f1761d.jar" />
     </item>
     <item
         jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
@@ -195,60 +30,18 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\commons-cli-1.2-77e16674d65416dd955988407e7e381e056ca645.jar" />
     </item>
     <item
-<<<<<<< HEAD
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-1e728a0ae19cdb875da53423684279e1ea4145f4.jar" />
+    </item>
+    <item
         jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp\1.2.0\6c5c9380e245c4ff5be2b2a49dcbb0200c39798e\stetho-okhttp-1.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\stetho-okhttp-1.2.0-952f3ceee085bfc9adc2b1fe2f0e85e4a3628be4.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.5.0\e9753b7dcae5deca92e871c5c759067070b07bc\okhttp-ws-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\okhttp-ws-2.5.0-d48c50b197d395b53d44f25766c112ff86228741.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-2dae1a9555130060355e754e9251abd49a4a32b6.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\internal_impl-23.0.1-54eb56d27218707b06f474f3cabecabd2e53a063.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okio-1.6.0-b69d950f43ce568f673e4f45e9e37e6e5ac3aad6.jar" />
-=======
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.19.1\jars\libs\infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d773b5e00673854250db5b7e085d47e649f2e7a7">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-cb32cb20b570e3796ed089481a9714cc36c85c57.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.19.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-dbf4cd93c498a9f313f25704d0a29a9d97ee7527.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-3c232f469c0af7db60527fc7daa6970cd5874e7f.jar" />
     </item>
     <item
         jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
@@ -258,12 +51,18 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-b6aabc0f84bc778ed9c5e5251c8b1267120b7f6b.jar" />
     </item>
     <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-26d358dce2e8aa39c3420edd3636796dc5a7e400.jar" />
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-3e5468fe527e4fc9ad9af9b67ab7400cb00536bf.jar" />
+    </item>
+    <item
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-cde6e101e6c62a56fc90f0f9971b17d6d4341789.jar" />
     </item>
     <item
         jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
@@ -273,47 +72,95 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-4d266f0ac46748a1395adf0e3a25d774f5c0a371.jar" />
     </item>
     <item
-<<<<<<< HEAD
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-49526708b588d12fe0ee09abd7d37781e147f388.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-0adf737e29faf0dba58c4832d9c39182396eea97.jar" />
     </item>
     <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-b3f1bcb6f82ad4659d8d4aedc5ade0c382c65f88.jar" />
+    </item>
+    <item
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-54eb56d27218707b06f474f3cabecabd2e53a063.jar" />
+    </item>
+    <item
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-06c2398778d5d73e9ba601d51fc405635cb3e4ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.5.0\e9753b7dcae5deca92e871c5c759067070b07bc\okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.5.0-d48c50b197d395b53d44f25766c112ff86228741.jar" />
+    </item>
+    <item
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-3c232f469c0af7db60527fc7daa6970cd5874e7f.jar" />
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-0f80bd1373920ce07e262f937765de14d11ae4af.jar" />
     </item>
     <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\library-2.4.0-fa582ace12d5c0f908e50ebf6354c0e04617df85.jar" />
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-07a0d159b3490501970aa2ae0c2cb2b5fda94785.jar" />
     </item>
     <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.8.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-fa582ace12d5c0f908e50ebf6354c0e04617df85.jar" />
-=======
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.2.0\1d6cdb8ce8185b8b23213fad48a83987fb6d2d67\stetho-1.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\stetho-1.2.0-3e10ebc8dc9606ea3f0271d1c3ca382a6dbd7ac8.jar" />
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-54a45af93057142b631fd08b061ae8dc8c4894bf.jar" />
     </item>
     <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okio-1.6.0-b69d950f43ce568f673e4f45e9e37e6e5ac3aad6.jar" />
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-59059976c4b716b8a0997324ba4d1aae6156eaf2.jar" />
+    </item>
+    <item
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-be191c43b8a01378870f53b9caf3045372c2d848.jar" />
+    </item>
+    <item
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-d6c496b64b782562aa30e8da44f982476693a7e2.jar" />
+    </item>
+    <item
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.22.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b2f15bec1db9a9fddabbc29cf0172333040d7d7">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-def4943bdeed6478fa11779d0211f558e81c036f.jar" />
+    </item>
+    <item
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\classes-01837d01ee07f6daff04bb055ee49c1fa99731f7.jar" />
     </item>
     <item
         jar="C:\software\adt-bundle\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
@@ -323,19 +170,11 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-8f45952dbfb3c23db949a4ac8d12ffcfba7e7dc5.jar" />
     </item>
     <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
-        jumboMode="false"
-<<<<<<< HEAD
-        revision="23.0.2"
-        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-cde6e101e6c62a56fc90f0f9971b17d6d4341789.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.22.2\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-b6aabc0f84bc778ed9c5e5251c8b1267120b7f6b.jar" />
+        sha1="5b2f15bec1db9a9fddabbc29cf0172333040d7d7">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-fba43a49923049fcd1c0472279187f6d863388f5.jar" />
     </item>
     <item
         jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
@@ -345,57 +184,11 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-26d358dce2e8aa39c3420edd3636796dc5a7e400.jar" />
     </item>
     <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-d6c496b64b782562aa30e8da44f982476693a7e2.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.19.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d1ad89d55d86e7d9b753ca9d028aa14a83c18006">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\classes-dbf4cd93c498a9f313f25704d0a29a9d97ee7527.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\release\bolts-android-1.1.4-07a0d159b3490501970aa2ae0c2cb2b5fda94785.jar" />
-    </item>
-    <item
         jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.2.0\1d6cdb8ce8185b8b23213fad48a83987fb6d2d67\stetho-1.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1d6cdb8ce8185b8b23213fad48a83987fb6d2d67">
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\stetho-1.2.0-3e10ebc8dc9606ea3f0271d1c3ca382a6dbd7ac8.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-5c85bf79a49ece167c1545ef35a604e381530391.jar" />
-    </item>
-    <item
-        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.19.1\jars\libs\infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d773b5e00673854250db5b7e085d47e649f2e7a7">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-cb32cb20b570e3796ed089481a9714cc36c85c57.jar" />
-=======
-        revision="23.0.1"
-        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-cde6e101e6c62a56fc90f0f9971b17d6d4341789.jar" />
-    </item>
-    <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-5c85bf79a49ece167c1545ef35a604e381530391.jar" />
     </item>
     <item
         jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
@@ -405,26 +198,39 @@
         <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-fa582ace12d5c0f908e50ebf6354c0e04617df85.jar" />
     </item>
     <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp\1.2.0\6c5c9380e245c4ff5be2b2a49dcbb0200c39798e\stetho-okhttp-1.2.0.jar"
+        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="6c5c9380e245c4ff5be2b2a49dcbb0200c39798e">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\stetho-okhttp-1.2.0-952f3ceee085bfc9adc2b1fe2f0e85e4a3628be4.jar" />
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-5c85bf79a49ece167c1545ef35a604e381530391.jar" />
     </item>
     <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-b97da0af34f741406be01bf267c33703e7f1761d.jar" />
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okio-1.6.0-b69d950f43ce568f673e4f45e9e37e6e5ac3aad6.jar" />
     </item>
     <item
-        jar="C:\Users\白航\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.5.0\e9753b7dcae5deca92e871c5c759067070b07bc\okhttp-ws-2.5.0.jar"
+        jar="F:\project\counterRelative-react-native\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.22.2\jars\libs\infer-annotations-1.5.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
-        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.5.0-d48c50b197d395b53d44f25766c112ff86228741.jar" />
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
+        sha1="0cc39db3c06f47dee223c382f78e2bff90b74274">
+        <dex dex="F:\project\counterRelative-react-native\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-a34e8584239838352946effc791e6848f9dc2171.jar" />
+    </item>
+    <item
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\classes-3c232f469c0af7db60527fc7daa6970cd5874e7f.jar" />
+    </item>
+    <item
+        jar="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.22.2\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0cc39db3c06f47dee223c382f78e2bff90b74274">
+        <dex dex="F:\react-native\counterRelativeAndroid\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-e5f8f4bd7b2d4d37a0e548ea29bd814c26124643.jar" />
     </item>
 
 </items>

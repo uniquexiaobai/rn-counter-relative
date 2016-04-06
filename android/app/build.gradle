@@ -26,7 +26,9 @@ import com.android.build.OutputFile
  *
  *   // whether to bundle JS and assets in another build variant (if configured).
  *   // See http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Variants
- *   // The configuration property is in the format 'bundleIn${productFlavor}${buildType}'
+ *   // The configuration property can be in the following formats
+ *   //         'bundleIn${productFlavor}${buildType}'
+ *   //         'bundleIn${buildType}'
  *   // bundleInFreeDebug: true,
  *   // bundleInPaidRelease: true,
  *   // bundleInBeta: true,
@@ -72,27 +74,10 @@ def enableSeparateBuildPerCPUArchitecture = false
 /**
  * Run Proguard to shrink the Java bytecode in release builds.
  */
-def enableProguardInReleaseBuilds = true
+def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 23
-<<<<<<< HEAD
-    buildToolsVersion "23.0.2"
-
-    defaultConfig {
-        applicationId "com.counterrelativeandroid"
-        minSdkVersion 19
-        targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
-    }
-    signingConfigs {
-        release {
-            storeFile file(MYAPP_RELEASE_STORE_FILE)
-            storePassword MYAPP_RELEASE_STORE_PASSWORD
-            keyAlias MYAPP_RELEASE_KEY_ALIAS
-            keyPassword MYAPP_RELEASE_KEY_PASSWORD
-=======
     buildToolsVersion "23.0.1"
 
     defaultConfig {
@@ -107,23 +92,16 @@ android {
     }
     splits {
         abi {
-            enable enableSeparateBuildPerCPUArchitecture
-            universalApk false  // Also generate an universal APK
             reset()
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false  // If true, also generate a universal APK
             include "armeabi-v7a", "x86"
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
         }
     }
     buildTypes {
         release {
-<<<<<<< HEAD
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            signingConfig signingConfigs.release
-=======
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
         }
     }
     // applicationVariants are e.g. debug, release
@@ -144,27 +122,5 @@ android {
 dependencies {
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
-    compile "com.facebook.react:react-native:0.19.+"
+    compile "com.facebook.react:react-native:+"  // From node_modules
 }
-
-<<<<<<< HEAD
-=======
-android {
-    ...
-    defaultConfig { ... }
-    signingConfigs {
-        release {
-            storeFile file(MYAPP_RELEASE_STORE_FILE)
-            storePassword MYAPP_RELEASE_STORE_PASSWORD
-            keyAlias MYAPP_RELEASE_KEY_ALIAS
-            keyPassword MYAPP_RELEASE_KEY_PASSWORD
-        }
-    }
-    buildTypes {
-        release {
-            ...
-            signingConfig signingConfigs.release
-        }
-    }
-}
->>>>>>> 883416ce570b9422e5ac7832302d5bdb9198c47a
