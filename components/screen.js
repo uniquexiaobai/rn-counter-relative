@@ -1,22 +1,24 @@
+/**
+ * 显示屏幕组件
+ */
 
-import React, {
-  AppRegistry,
-  Component,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+ import React, { Component } from 'react';
+ import {
+   StyleSheet,
+   Text,
+   View,
+ } from 'react-native';
 
-var Show = React.createClass({
+export default class extends Component {
 
 	// 格式化 expression
-	getExpression: function() {
+	getExpression () {
 		var lastIndex = this.props.expression.length - 1;
 		return this.props.expression.join('的');
-	},
+	}
 
 	// 格式化 result
-	getResult: function() {
+	getResult () {
 		var lastIndex = this.props.result.length - 1;
 
 		if(lastIndex === 0) {
@@ -31,9 +33,9 @@ var Show = React.createClass({
 			return "这个太难了！";
 		}
 		return this.props.result[lastIndex];
-	},
+	}
 
-	render: function() {
+	render () {
 		return(
 			<View style={styles.Show}>
 				<View style={styles.expression}>
@@ -49,9 +51,10 @@ var Show = React.createClass({
 			</View>
 		);
 	}
-});
+  
+};
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
 	Show: {
 		flex: 3,
 		backgroundColor: '#E3E7E9',
@@ -84,5 +87,3 @@ var styles = StyleSheet.create({
 		fontFamily: 'Arial',
 	},
 });
-
-export default Show;
