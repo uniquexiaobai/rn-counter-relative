@@ -58,6 +58,19 @@ export default class extends Component {
               <Text style={styles.item_content}>https://github.com/uniquexiaobai</Text>
             </View>
           </TouchableHighlight>
+          
+          <TouchableHighlight
+              style={[styles.about_item]}
+              underlayColor='#E1E1E1'
+              onPress={() => {
+                Linking.openURL('http://www.weibo.com/u/5332095066').catch(err => console.error('An error occurred', err));
+              }}
+          >
+            <View>
+              <Text style={styles.item_title}>作者微博</Text>
+              <Text style={styles.item_content}>http://www.weibo.com/u/5332095066</Text>
+            </View>
+          </TouchableHighlight>
         
       </View>
       
