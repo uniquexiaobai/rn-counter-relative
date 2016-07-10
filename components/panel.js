@@ -20,74 +20,74 @@ export default class extends Component {
 	}
 
 	render () {
-		var bool = this.getSelected();
+		var isPressed = this.getSelected();
 
 		return(
 			<View style={styles.Ctrl}>
 				<View style={styles.line}>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '爸爸')}>
-						<Text>爸</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '妈妈')}>
-						<Text>妈</Text>
+          <TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '爸爸')}>
+            <Text style={[styles.btn_font]}>爸</Text>
+          </TouchableHighlight>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '妈妈')}>
+						<Text style={[styles.btn_font]}>妈</Text>
 					</TouchableHighlight>
 					<TouchableHighlight style={[styles.btn]} underlayColor="yellow" onPress={this.props.handleBack}>
-						<Text style={styles.btn_font_red}>{"\u2190"}</Text>
+						<Text style={[styles.btn_font, styles.btn_font_red]}>{"\u2190"}</Text>
 					</TouchableHighlight>
 					<TouchableHighlight style={[styles.btn]} underlayColor="yellow" onPress={this.props.handleClear}>
-						<Text style={styles.btn_font_red}>C</Text>
+						<Text style={[styles.btn_font, styles.btn_font_red]}>C</Text>
 					</TouchableHighlight>
 				</View>
 
 				<View style={styles.line}>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '哥哥')}>
-						<Text>兄</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '哥哥')}>
+						<Text style={[styles.btn_font]}>兄</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '姐姐')}>
-						<Text>姐</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '姐姐')}>
+						<Text style={[styles.btn_font]}>姐</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '弟弟')}>
-						<Text>弟</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '弟弟')}>
+						<Text style={[styles.btn_font]}>弟</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '妹妹')}>
-						<Text>妹</Text>
-					</TouchableHighlight>
-				</View>
-
-				<View style={styles.line}>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '丈夫')}>
-						<Text>夫</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '妻子')}>
-						<Text>妻</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.btn_old] : [styles.btn, styles.btn_old, styles.disabled_btn, styles.btn_old]} underlayColor={bool ? "#2E7E6A" : "#35A084"} onPress={bool ? this.props.handleIsOld.bind(this, '长') : null}>
-						<Text>长</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={[styles.btn, styles.disabled_btn, styles.btn_orange]} underlayColor="#FB742E">
-						<Text>的</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '妹妹')}>
+						<Text style={[styles.btn_font]}>妹</Text>
 					</TouchableHighlight>
 				</View>
 
 				<View style={styles.line}>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '儿子')}>
-						<Text>儿</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '丈夫')}>
+						<Text style={[styles.btn_font]}>夫</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={bool ? "#DEDEDE" : "green"} onPress={bool ? null : this.props.handlePress.bind(this, '女儿')}>
-						<Text>女</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '妻子')}>
+						<Text style={[styles.btn_font]}>妻</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={bool ? [styles.btn, styles.btn_young] : [styles.btn, styles.disabled_btn, styles.btn_young]} underlayColor={bool ? "#3E9555" : "#4BCC6B"} onPress={bool ? this.props.handleIsOld.bind(this, '轻') : null}>
-						<Text>轻</Text>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_old] : [styles.btn, styles.btn_press_old]} underlayColor={isPressed ? "#2E7E6A" : "#35A084"} onPress={isPressed ? this.props.handleIsOld.bind(this, '长') : null}>
+						<Text style={[styles.btn_font]}>长</Text>
 					</TouchableHighlight>
-					<TouchableHighlight style={[styles.btn, styles.disabled_btn, styles.btn_orange]} underlayColor="#FB742E">
-						<Text>等</Text>
+					<TouchableHighlight style={[styles.btn, styles.btn_orange]} underlayColor="#FB742E">
+						<Text style={[styles.btn_font]}>的</Text>
+					</TouchableHighlight>
+				</View>
+
+				<View style={styles.line}>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '儿子')}>
+						<Text style={[styles.btn_font]}>儿</Text>
+					</TouchableHighlight>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.disabled_btn] : [styles.btn]} underlayColor={isPressed ? "#DEDEDE" : "green"} onPress={isPressed ? null : this.props.handlePress.bind(this, '女儿')}>
+						<Text style={[styles.btn_font]}>女</Text>
+					</TouchableHighlight>
+					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_young] : [styles.btn, styles.btn_press_young]} underlayColor={isPressed ? "#3E9555" : "#4BCC6B"} onPress={isPressed ? this.props.handleIsOld.bind(this, '轻') : null}>
+						<Text style={[styles.btn_font]}>轻</Text>
+					</TouchableHighlight>
+					<TouchableHighlight style={[styles.btn, styles.btn_orange]} underlayColor="#FB742E">
+						<Text style={[styles.btn_font]}>等</Text>
 					</TouchableHighlight>
 				</View>
 
 			</View>
 		);
 	}
-  
+
 };
 
 const styles = StyleSheet.create({
@@ -103,24 +103,34 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		flex: 1,
-		borderColor: '#EEF0F2',
-		borderWidth: 2/PixelRatio.get(),
+		borderColor: '#D6DAD4',
+		borderWidth: 1/PixelRatio.get(),
 		backgroundColor: '#FAFBFC',
 	},
 	disabled_btn: {
 		opacity: 0.3,
-		backgroundColor: '#DEDEDE',
 	},
 	btn_orange: {
-		backgroundColor: '#FB742E',
+		backgroundColor: '#FAD2BD',
 	},
+
 	btn_old: {
 		backgroundColor: '#35A084',
 	},
+  btn_press_old: {
+    backgroundColor: '#BFDFD7',
+  },
 	btn_young: {
 		backgroundColor: '#4BCC6B',
 	},
+  btn_press_young: {
+    backgroundColor: '#C5ECCF',
+  },
+
+  btn_font: {
+    fontSize: 16,
+  },
 	btn_font_red: {
-		color: 'red'
+		color: 'red',
 	}
 });
