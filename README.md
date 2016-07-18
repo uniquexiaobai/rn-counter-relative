@@ -11,7 +11,7 @@
 6. 2016年春节前上架至Android及IOS相应的应用商店
 
 ---
-## [Android版下载地址](http://workhard.top/app-release.apk)
+## [Android版下载地址](http://workhard.top/apk/counter.apk)
 ---
 ## 截图：
 ![](./screenshot/counter2.gif)

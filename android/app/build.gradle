@@ -98,10 +98,19 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+    signingConfigs {                // 这样的话不用配置gradle变量
+            release {
+            storeFile file("./my-release-key.keystore")
+            storePassword "******"
+            keyAlias "my-key-alias"
+            keyPassword "******"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
