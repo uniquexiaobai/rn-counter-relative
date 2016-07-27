@@ -15,73 +15,126 @@ export default class extends Component {
 
 	// 格式化 selected
 	getSelected () {
-		var lastIndex = this.props.selected.length - 1;
+		let lastIndex = this.props.selected.length - 1;
 		return this.props.selected[lastIndex];
 	}
 
 	render () {
-		var isPressed = this.getSelected();
+
+		let isPressed = this.getSelected();
+		
+		// 按钮信息
+		const items = [
+			{name: '爸爸', simpleName: '爸'},
+			{name: '妈妈', simpleName: '妈'},
+			{name: '退', simpleName: "\u2190"},
+			{name: '清', simpleName: "C"},
+			{name: '哥哥', simpleName: "兄"},
+			{name: '姐姐', simpleName: "姐"},
+			{name: '弟弟', simpleName: "弟"},
+			{name: '妹妹', simpleName: "妹"},
+			{name: '丈夫', simpleName: "夫"},
+			{name: '妻子', simpleName: "妻"},
+			{name: '长', simpleName: "长"},
+			{name: '的', simpleName: "的"},
+			{name: '儿子', simpleName: "儿"},
+			{name: '女儿', simpleName: "女"},
+			{name: '轻', simpleName: "轻"},
+			{name: '等', simpleName: "等"}
+		];
+
+		const that = this;
+		// 获得按钮模板数组
+		let getBtns = items.map(function(item) {
+			switch (item.name) {
+
+				case '退': 
+					return (
+						<TouchableHighlight 
+							key={item.name}
+							style={[styles.btn]} 
+							underlayColor="#E0E0E0" 
+							onPress={that.props.handleBack}>
+							<Text style={[styles.btn_font, styles.btn_font_red]}>{item.simpleName}</Text>
+						</TouchableHighlight>
+					);
+
+				case '清':
+					return (
+						<TouchableHighlight 
+							key={item.name}
+							style={[styles.btn]} 
+							underlayColor="#E0E0E0"
+							onPress={that.props.handleClear}>
+							<Text style={[styles.btn_font, styles.btn_font_red]}>{item.simpleName}</Text>
+						</TouchableHighlight>
+					);
+
+				case '轻':
+					return (
+						<TouchableHighlight 
+							key={item.name}
+							style={isPressed ? [styles.btn, styles.btn_young] : [styles.btn, styles.btn_press_young]} 
+							underlayColor={isPressed ? "#3E9555" : "#4BCC6B"} 
+							onPress={isPressed ? that.props.handleIsOld.bind(that, item.simpleName) : null}>
+							<Text style={isPressed ? [styles.btn_font] : [styles.btn_font, {color: '#AFB7B7'}]}>{item.simpleName}</Text>
+						</TouchableHighlight>
+					);
+
+				case '长':
+					return (
+						<TouchableHighlight 
+							key={item.name}
+							style={isPressed ? [styles.btn, styles.btn_old] : [styles.btn, styles.btn_press_old]} 
+							underlayColor={isPressed ? "#2E7E6A" : "#35A084"} 
+							onPress={isPressed ? that.props.handleIsOld.bind(that, item.simpleName) : null}>
+							<Text style={isPressed ? [styles.btn_font] : [styles.btn_font, {color: '#AFB7B7'}]}>{item.simpleName}</Text>
+						</TouchableHighlight>
+					);
+
+				case '的':
+				case '等':
+					return (
+						<TouchableHighlight 
+							key={item.name}
+							style={[styles.btn, styles.btn_red]} 
+							underlayColor="#FB742E">
+							<Text style={[styles.btn_font, styles.btn_press_font_red]}>{item.simpleName}</Text>
+						</TouchableHighlight>
+					);
+
+				default :
+					return (
+						<TouchableHighlight 
+							key={item.name}
+							style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} 
+							underlayColor="#E0E0E0" 
+							onPress={isPressed ? null : that.props.handlePress.bind(that, item.name)}>
+							<Text	style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>
+								{item.simpleName}
+							</Text>
+						</TouchableHighlight>
+					);
+
+			}
+		});
 
 		return(
 			<View style={styles.Ctrl}>
 				<View style={styles.line}>
-          <TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '爸爸')}>
-            <Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>爸</Text>
-          </TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '妈妈')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>妈</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={[styles.btn]} underlayColor="#E0E0E0" onPress={this.props.handleBack}>
-						<Text style={[styles.btn_font, styles.btn_font_red]}>{"\u2190"}</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={[styles.btn]} underlayColor="#E0E0E0" onPress={this.props.handleClear}>
-						<Text style={[styles.btn_font, styles.btn_font_red]}>C</Text>
-					</TouchableHighlight>
+          {getBtns.slice(0, 4)}
 				</View>
 
 				<View style={styles.line}>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '哥哥')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>兄</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '姐姐')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>姐</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '弟弟')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>弟</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '妹妹')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>妹</Text>
-					</TouchableHighlight>
+					{getBtns.slice(4, 8)}
 				</View>
 
 				<View style={styles.line}>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '丈夫')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>夫</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '妻子')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>妻</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_old] : [styles.btn, styles.btn_press_old]} underlayColor={isPressed ? "#2E7E6A" : "#35A084"} onPress={isPressed ? this.props.handleIsOld.bind(this, '长') : null}>
-						<Text style={isPressed ? [styles.btn_font] : [styles.btn_font, {color: '#AFB7B7'}]}>长</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={[styles.btn, styles.btn_red]} underlayColor="#FB742E">
-						<Text style={[styles.btn_font, styles.btn_press_font_red]}>的</Text>
-					</TouchableHighlight>
+					{getBtns.slice(8, 12)}
 				</View>
 
 				<View style={styles.line}>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '儿子')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>儿</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_press] : [styles.btn]} underlayColor="#E0E0E0" onPress={isPressed ? null : this.props.handlePress.bind(this, '女儿')}>
-						<Text style={isPressed ? [styles.btn_font, styles.btn_press_font] : [styles.btn_font]}>女</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={isPressed ? [styles.btn, styles.btn_young] : [styles.btn, styles.btn_press_young]} underlayColor={isPressed ? "#3E9555" : "#4BCC6B"} onPress={isPressed ? this.props.handleIsOld.bind(this, '轻') : null}>
-						<Text style={isPressed ? [styles.btn_font] : [styles.btn_font, {color: '#AFB7B7'}]}>轻</Text>
-					</TouchableHighlight>
-					<TouchableHighlight style={[styles.btn, styles.btn_red]} underlayColor="#FB742E">
-						<Text style={[styles.btn_font, styles.btn_press_font_red]}>等</Text>
-					</TouchableHighlight>
+					{getBtns.slice(12, 16)}
 				</View>
 
 			</View>
@@ -140,6 +193,5 @@ const styles = StyleSheet.create({
   btn_press_young: {
     backgroundColor: '#C5ECCF',
   },
-
 
 });

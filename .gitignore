@@ -1,2 +1,3 @@
 node_modules
 android/app/my-release-key.keystore
+.vscode

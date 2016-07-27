@@ -5,8 +5,8 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  Text,
-  View
+  View,
+  Alert,
 } from 'react-native';
 
 import Screen from './screen.js';
@@ -21,7 +21,7 @@ export default class extends Component {
       expression: ['我'],
       result: ['我'],
       selected: [false]
-    }
+    };
   }
   
   // 定义计算亲戚称谓的方法
@@ -35,20 +35,20 @@ export default class extends Component {
   
   // 普通按钮的事件
   handlePress (argu) {
-    var newExpression = this.state.expression;
+    let newExpression = this.state.expression;
     newExpression.push(argu);
 
     if(newExpression.length > 10) {
-      alert('亲，可不可以不要这么调皮！！！');
+      Alert.alert('警告', '亲，可不可以不要这么调皮！');
       return ;
     }
 
-    var newResult=this.state.result;
-    var lastIndex = newResult.length - 1;
-    var result = this.count(newResult[lastIndex], argu);
+    let newResult = this.state.result;
+    let lastIndex = newResult.length - 1;
+    let result = this.count(newResult[lastIndex], argu);
     newResult.push(result);
 
-    var newSelected = this.state.selected;
+    let newSelected = this.state.selected;
     if(typeof(newResult[newResult.length - 1]) === 'object') {
       newSelected.push(true);
     }
@@ -62,13 +62,13 @@ export default class extends Component {
   
   // 选择 年长/年轻 按钮的事件
   handleIsOld (argu) {
-    var newResult = this.state.result;
-    var lastIndex = newResult.length - 1;
+    let newResult = this.state.result;
+    let lastIndex = newResult.length - 1;
 
-    var result = newResult[lastIndex][argu];
+    let result = newResult[lastIndex][argu];
     newResult[lastIndex] = result;
 
-    var newSelected = this.state.selected;
+    let newSelected = this.state.selected;
     newSelected[newSelected.length - 1] = false;
 
     this.setState({
@@ -114,7 +114,10 @@ export default class extends Component {
     return (
       <View style={styles.Container}>
       
-        <Screen expression={this.state.expression} result={this.state.result}></Screen>
+        <Screen 
+          expression={this.state.expression} 
+          result={this.state.result}
+        />
         
         <Panel 
           selected={this.state.selected} 
@@ -122,8 +125,7 @@ export default class extends Component {
           handleIsOld={this.handleIsOld.bind(this)} 
           handleBack={this.handleBack.bind(this)} 
           handleClear={this.handleClear.bind(this)}
-        >
-        </Panel>
+        />
         
       </View>
     );

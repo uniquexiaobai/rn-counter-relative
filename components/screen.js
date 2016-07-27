@@ -13,13 +13,13 @@ export default class extends Component {
 
 	// 格式化 expression
 	getExpression () {
-		var lastIndex = this.props.expression.length - 1;
+		let lastIndex = this.props.expression.length - 1;
 		return this.props.expression.join('的');
 	}
 
 	// 格式化 result
 	getResult () {
-		var lastIndex = this.props.result.length - 1;
+		let lastIndex = this.props.result.length - 1;
 
 		if(lastIndex === 0) {
 			return ""
@@ -32,22 +32,27 @@ export default class extends Component {
 		if(this.props.result[lastIndex] === '未知') {
 			return "这个太难了！";
 		}
+
 		return this.props.result[lastIndex];
+
 	}
 
 	render () {
 		return(
 			<View style={styles.Show}>
+
 				<View style={styles.expression}>
 					<Text style={styles.expression_font}>
 						{this.getExpression()}
 					</Text>
 				</View>
+
 				<View style={styles.result}>
 					<Text style={styles.result_font}>
 						{this.getResult()}
 					</Text>
 				</View>
+				
 			</View>
 		);
 	}

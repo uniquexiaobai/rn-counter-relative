@@ -221,7 +221,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">counterRelativeAndroid</string>
+    <string name="app_name">称谓计算器</string>
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/res/values/values.xml -->
     <eat-comment/>
     <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug in Chrome</string>

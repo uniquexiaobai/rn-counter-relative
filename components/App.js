@@ -1,12 +1,9 @@
 /**
- * 入口文件
+ * 程序入口文件
  */
 
 import React, { Component } from 'react';
 import {
-  StyleSheet,
-  Text,
-  View,
   DrawerLayoutAndroid,
 } from 'react-native';
 
@@ -16,10 +13,8 @@ import Util from './util/util';
 
 export default class extends Component {
   
-  /**
-   * 关闭抽屉菜单
-   */
-  cloneDrawer() {
+  // 关闭抽屉菜单
+  closeDrawer() {
     this.refs.drawer.closeDrawer();
   }
   
@@ -29,7 +24,7 @@ export default class extends Component {
         ref="drawer"
         drawerWidth={Util.size.width}
         drawerPosition={DrawerLayoutAndroid.positions.Left}
-        renderNavigationView={() => <Menu cloneDrawer={this.cloneDrawer.bind(this)}/>}
+        renderNavigationView={() => <Menu closeDrawer={this.closeDrawer.bind(this)}/>}
       >
       
         <Main />
@@ -37,12 +32,5 @@ export default class extends Component {
       </DrawerLayoutAndroid>
     );
   }
-  
-};
 
-
-const styles = StyleSheet.create({
-  
-  
-  
-});
+}
