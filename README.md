@@ -12,10 +12,13 @@
 
 ---
 ## [Android版下载地址](http://workhard.top/apk/counter.apk)
----
+
+
 ## 截图：
 ![](./screenshot/counter2.gif)
----
+![](./screenshot/counter-ios.png)
+
+
 ## 安装及运行：
 ##### 1. 下载
 ```bash
