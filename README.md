@@ -1,5 +1,4 @@
 # 亲戚称呼计算器
-
 初涉React Native的入门项目
 方便计算亲戚称呼的计算器
 
@@ -10,14 +9,13 @@
 4. 重新设计更可行的数据结构承载称呼信息，并相应的完善
 6. 2016年春节前上架至Android及IOS相应的应用商店
 
-
 ## [Android版下载地址](http://workhard.top/apk/counter.apk)
+## Android扫一扫下载
+![Android二维码](./screenshot/counter-QR.png)
 
-
-## 截图：
-![](./screenshot/counter2.gif)
-![](./screenshot/counter-ios.png)
-
+## 运行截图：
+![Android截图](./screenshot/counter2.gif)
+![IOS截图](./screenshot/counter-ios.png)
 
 ## 安装及运行：
 ##### 1. 下载
