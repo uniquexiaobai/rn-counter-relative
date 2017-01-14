@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -31,7 +31,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/res/values/values.xml -->
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
     <eat-comment/>
     <color name="catalyst_redbox_background">#eecc0000</color>
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
@@ -86,7 +86,7 @@
     <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="textAllCaps"/><attr name="android:textAppearance"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
-    <declare-styleable name="GenericDraweeView"><attr format="integer" name="fadeDuration"/><attr format="float" name="viewAspectRatio"/><attr format="reference" name="placeholderImage"/><attr name="placeholderImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="retryImage"/><attr name="retryImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="failureImage"/><attr name="failureImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="progressBarImage"/><attr name="progressBarImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="integer" name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="backgroundImage"/><attr format="reference" name="overlayImage"/><attr format="reference" name="pressedStateOverlayImage"/><attr format="boolean" name="roundAsCircle"/><attr format="dimension" name="roundedCornerRadius"/><attr format="boolean" name="roundTopLeft"/><attr format="boolean" name="roundTopRight"/><attr format="boolean" name="roundBottomRight"/><attr format="boolean" name="roundBottomLeft"/><attr format="color" name="roundWithOverlayColor"/><attr format="dimension" name="roundingBorderWidth"/><attr format="color" name="roundingBorderColor"/></declare-styleable>
+    <declare-styleable name="GenericDraweeHierarchy"><attr format="integer" name="fadeDuration"/><attr format="float" name="viewAspectRatio"/><attr format="reference" name="placeholderImage"/><attr name="placeholderImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="retryImage"/><attr name="retryImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="failureImage"/><attr name="failureImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="progressBarImage"/><attr name="progressBarImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="integer" name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="backgroundImage"/><attr format="reference" name="overlayImage"/><attr format="reference" name="pressedStateOverlayImage"/><attr format="boolean" name="roundAsCircle"/><attr format="dimension" name="roundedCornerRadius"/><attr format="boolean" name="roundTopLeft"/><attr format="boolean" name="roundTopRight"/><attr format="boolean" name="roundBottomRight"/><attr format="boolean" name="roundBottomLeft"/><attr format="color" name="roundWithOverlayColor"/><attr format="dimension" name="roundingBorderWidth"/><attr format="color" name="roundingBorderColor"/><attr format="dimension" name="roundingBorderPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
@@ -97,6 +97,7 @@
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="SimpleDraweeView"><attr format="string" name="actualImageUri"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="track"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
     <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/></declare-styleable>
@@ -221,13 +222,15 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">称谓计算器</string>
-    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/res/values/values.xml -->
+    <string name="app_name">CounterRelative</string>
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
     <eat-comment/>
-    <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug in Chrome</string>
-    <string name="catalyst_debugjs_off" project="catalyst" translatable="false">Stop Chrome Debugging</string>
-    <string name="catalyst_element_inspector" project="catalyst" translatable="false">Show Inspector</string>
-    <string name="catalyst_element_inspector_off" project="catalyst" translatable="false">Hide Inspector</string>
+    <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy</string>
+    <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug JS Remotely</string>
+    <string name="catalyst_debugjs_off" project="catalyst" translatable="false">Stop Remote JS Debugging</string>
+    <string name="catalyst_dismiss_button" project="catalyst" translatable="false">Dismiss\n(ESC)</string>
+    <string name="catalyst_element_inspector" project="catalyst" translatable="false">Toggle Inspector</string>
+    <string name="catalyst_heap_capture" project="catalyst" translatable="false">Capture Heap</string>
     <string name="catalyst_hot_module_replacement" project="catalyst" translatable="false">Enable Hot Reloading</string>
     <string name="catalyst_hot_module_replacement_off" project="catalyst" translatable="false">Disable Hot Reloading</string>
     <string name="catalyst_jsload_error" project="catalyst" translatable="false">Unable to download JS bundle. Did you forget to start the development server or connect your device?</string>
@@ -235,15 +238,16 @@
     <string name="catalyst_jsload_title" project="catalyst" translatable="false">Please wait…</string>
     <string name="catalyst_live_reload" project="catalyst" translatable="false">Enable Live Reload</string>
     <string name="catalyst_live_reload_off" project="catalyst" translatable="false">Disable Live Reload</string>
-    <string name="catalyst_perf_monitor" project="catalyst" translatable="false">Enable Perf Monitor</string>
-    <string name="catalyst_perf_monitor_off" project="catalyst" translatable="false">Disable Perf Monitor</string>
-    <string name="catalyst_reloadjs" project="catalyst" translatable="false">Reload JS</string>
+    <string name="catalyst_perf_monitor" project="catalyst" translatable="false">Show Perf Monitor</string>
+    <string name="catalyst_perf_monitor_off" project="catalyst" translatable="false">Hide Perf Monitor</string>
+    <string name="catalyst_poke_sampling_profiler" project="catalyst" translatable="false">Start/Stop Sampling Profiler</string>
+    <string name="catalyst_reload_button" project="catalyst" translatable="false">Reload\n(R,\u00A0R)</string>
+    <string name="catalyst_reloadjs" project="catalyst" translatable="false">Reload</string>
     <string name="catalyst_remotedbg_error" project="catalyst" translatable="false">Unable to connect with remote debugger</string>
     <string name="catalyst_remotedbg_message" project="catalyst" translatable="false">Connecting to remote debugger</string>
+    <string name="catalyst_report_button" project="catalyst" translatable="false">Report</string>
     <string name="catalyst_settings" project="catalyst" translatable="false">Dev Settings</string>
     <string name="catalyst_settings_title" project="catalyst" translatable="false">Catalyst Dev Settings</string>
-    <string name="catalyst_start_profile" project="catalyst" translatable="false">Start Profile</string>
-    <string name="catalyst_stop_profile" project="catalyst" translatable="false">Stop Profile</string>
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -251,7 +255,7 @@
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/res/values/values.xml -->
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Animation.Catalyst.RedBox" parent="@android:style/Animation">
     <item name="android:windowEnterAnimation">@anim/catalyst_push_up_in</item>
@@ -1177,6 +1181,24 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CalendarDatePickerDialog" ns1:targetApi="lollipop" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerStyle">@style/CalendarDatePickerStyle</item>
+    </style>
+    <style name="CalendarDatePickerStyle" ns1:targetApi="lollipop" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+    <style name="DialogAnimationFade">
+    <item name="android:windowEnterAnimation">@anim/fade_in</item>
+    <item name="android:windowExitAnimation">@anim/fade_out</item>
+  </style>
+    <style name="DialogAnimationSlide">
+    <item name="android:windowEnterAnimation">@anim/slide_up</item>
+    <item name="android:windowExitAnimation">@anim/slide_down</item>
+  </style>
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1317,6 +1339,16 @@
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
     </style>
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="SpinnerDatePickerDialog" ns1:targetApi="lollipop" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerStyle">@style/SpinnerDatePickerStyle</item>
+    </style>
+    <style name="SpinnerDatePickerStyle" ns1:targetApi="lollipop" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>
@@ -1384,7 +1416,7 @@
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
-    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/res/values/values.xml -->
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme"/>
     <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
@@ -1411,7 +1443,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.22.2/res/values/values.xml -->
+    <!-- From: file:/F:/react-native/rn-counter-relative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.Catalyst"/>
     <style name="Theme.Catalyst.RedBox" parent="@style/Theme.AppCompat.DialogWhenLarge">
@@ -1420,6 +1452,18 @@
     <item name="android:inAnimation">@android:anim/fade_in</item>
     <item name="android:outAnimation">@android:anim/fade_out</item>
     <item name="android:textColor">@android:color/white</item>
+  </style>
+    <style name="Theme.FullScreenDialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowTranslucentStatus">true</item>
+  </style>
+    <style name="Theme.FullScreenDialogAnimatedFade" parent="Theme.FullScreenDialog">
+    <item name="android:windowAnimationStyle">@style/DialogAnimationFade</item>
+  </style>
+    <style name="Theme.FullScreenDialogAnimatedSlide" parent="Theme.FullScreenDialog">
+    <item name="android:windowAnimationStyle">@style/DialogAnimationSlide</item>
   </style>
     <style name="Theme.ReactNative.AppCompat.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:textColor">@android:color/black</item>

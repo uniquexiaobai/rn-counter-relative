@@ -4,10 +4,8 @@
  */
 
 import React, { Component } from 'react';
-import {
-  AppRegistry
-} from 'react-native';
+import { AppRegistry } from 'react-native';
 
-import App from './components/App';
+import App from './App';
 
-AppRegistry.registerComponent('counterRelativeAndroid', () => App);
+AppRegistry.registerComponent('CounterRelative', () => App);

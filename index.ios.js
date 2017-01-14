@@ -3,7 +3,9 @@
  * https://github.com/uniquexiaobai/rn-counter-relative
  */
 
-import React, { AppRegistry } from 'react-native';
-import Main from './components/main';
+import React, { Component } from 'react';
+import { AppRegistry } from 'react-native';
 
-AppRegistry.registerComponent('counterRelativeAndroid', () => Main);
+import App from './App';
+
+AppRegistry.registerComponent('CounterRelative', () => App);
